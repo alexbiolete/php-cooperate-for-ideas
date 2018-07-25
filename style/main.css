@@ -1,0 +1,9 @@
+main {
+	background-color: white;
+	margin: 0;
+	border: 0;
+	padding: 2rem 5% 2rem 5%;
+	box-shadow: inset 0 12px 24px -12px black;
+	color: black !important;
+	text-align: center;
+}
