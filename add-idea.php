@@ -91,7 +91,7 @@
 								<label>E-mail</label>
 								<input type="email" class="form-control" placeholder="Enter e-mail address" name="eml">
 							</div>
-							<br>
+							<hr>
 							<button type="submit" class="btn btn-dark btn-block" name="add_idea">Submit</button>
 						</div>
 					</form>

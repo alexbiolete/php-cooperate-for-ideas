@@ -69,6 +69,7 @@
 								<label class="shadowed-text" name="password">Password</label>
 								<input type="password" class="form-control" name="password" placeholder="Enter password">
 							</div>
+							<hr>
 							<div class="input-group">
 								<button type="submit" class="btn btn-dark btn-block" name="login_user">Log in</button>
 							</div>

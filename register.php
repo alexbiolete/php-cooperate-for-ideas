@@ -81,7 +81,10 @@
 								<input type="password" class="form-control" placeholder="Enter password" name="password_1">
 								<input type="password" class="form-control custom-repeat-pass" placeholder="Repeat password" name="password_2">
 							</div>
-							<button type="submit" class="btn btn-dark btn-block" name="register_user">Sign up</button>
+							<hr>
+							<div class="input-group">
+								<button type="submit" class="btn btn-dark btn-block" name="register_user">Sign up</button>
+							</div>
 						</div>
 					</form>
 				</div>
