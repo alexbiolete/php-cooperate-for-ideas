@@ -12,7 +12,6 @@
   $eml = "";
   $about = "";
   $title = "";
-  $implementation = "";
 
   // connect to the database
   $db = mysqli_connect('localhost', 'root', '', 'Cooperate-for-ideas');
@@ -114,12 +113,11 @@
     // receive all input values from the form
     $title = mysqli_real_escape_string($db, $_POST['title']);
     $about = mysqli_real_escape_string($db, $_POST['about']);
-    $implementation = mysqli_real_escape_string($db, $_POST['implementation']);
     $eml = mysqli_real_escape_string($db, $_POST['eml']);
 
 
-    $query1 = "INSERT INTO ideas (title, about, implementation, eml) 
-      VALUES('$title', '$about', '$implementation', '$eml')";
+    $query1 = "INSERT INTO ideas (title, about, eml) 
+      VALUES('$title', '$about', '$eml')";
       mysqli_query($db, $query1);
       header('location: home.php');
   }
