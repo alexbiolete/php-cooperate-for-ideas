@@ -1,17 +1,27 @@
 header {
   width: 100%;
-  min-height: 100vh;
+  min-height: 20vh;
   margin: 0;
   border: 0;
-  padding: 35vh 5% 35vh 5%;
+  padding: 15vh 5% 10vh 5%;
   background-color: black;
-  background-image: url('../images/background/header.jpg');
-  background-position: bottom;
   background-attachment: scroll;
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
   text-shadow: 0.5px 0.5px 2px black;
+}
+
+header.custom-index-header {
+  min-height: 100vh !important;
+  padding: 35vh 5% 35vh 5% !important;
+  background-image: url('../images/background/header.jpg');
+  background-position: bottom;
+}
+
+header.custom-home-header {
+  background-image: url('../images/background/header.jpg');
+  background-position: 50% 75%;
 }
 
 header a.custom-button {

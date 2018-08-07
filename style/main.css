@@ -5,5 +5,44 @@ main {
 	padding: 2rem 5% 2rem 5%;
 	box-shadow: inset 0 12px 24px -12px black;
 	color: black !important;
+}
+
+main.custom-ideas {
+	min-height: 100vh;
+	padding-top: 4rem;
+	background-color: #373d4b;
+	background-image: url('../images/background/main.png');
+	background-repeat: repeat;
+}
+
+main.custom-padding {
+	padding-top: 7.5rem !important;
+}
+
+main div.custom-margin-card {
+	margin: 0 30rem 0 30rem;
+}
+
+main div.custom-card-idea {
+	margin: 0 15rem 0 15rem;
+}
+
+main div.custom-card-margin {
+	margin-bottom: 2rem;
+}
+
+main.custom-center-text {
 	text-align: center;
+}
+
+main div.custom-center-text {
+	text-align: center;
+}
+
+input.custom-repeat-pass {
+	margin-top: 0.5rem;
+}
+
+.custom-title-size {
+	font-size: 1.5rem !important;
 }

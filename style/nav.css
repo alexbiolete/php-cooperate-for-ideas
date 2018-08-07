@@ -12,6 +12,10 @@ nav div ul.custom-align {
   margin-left: auto !important;
 }
 
+nav a.custom-hover:hover {
+  text-decoration: underline;
+}
+
 nav a.custom-brand {
   padding-right: 1rem;
   font-family: 'Pacifico', cursive;
@@ -22,4 +26,9 @@ nav a.custom-brand {
 nav a.custom-button {
   margin: 2.5px;
   width: 5rem;
+}
+
+nav p {
+  margin: 0 0.5rem 0 0.5rem;
+  color: white;
 }
