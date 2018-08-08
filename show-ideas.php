@@ -21,7 +21,7 @@
             <label><?php echo $element['about']; ?></label>
             <hr>
             <h5>Contact: </h5>
-            <a href="mailto: <?php echo $element['eml']; ?>"><?php echo $element['eml']; ?></a>
+            <a href="mailto:<?php echo $element['eml']; ?>?body=%0D%0A%0D%0AThis%20message%20was%20sent%20from%20Cooperate%20for%20ideas"><?php echo $element['eml']; ?></a>
             <hr>
             <div class="form-group">
               <h5>People working on the project:</h5>
@@ -37,7 +37,7 @@
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Close</button>
-            <a href="aplicare.html" type="button" class="btn btn-dark">Submit feedback</a>
+            <button type="submit" class="btn btn-dark" data-dismiss="modal">Submit feedback</button>
           </div>
         </div>
       </div>
@@ -67,11 +67,11 @@
             </div>
             <div class="form-group">
               <label>Why you want to join?</label>
-              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Tell us what motivates you" name="motivation"></textarea>
+              <textarea class="form-control" rows="3" placeholder="Tell us what motivates you" name="motivation"></textarea>
             </div>
           </div>
           <div class="modal-footer">
-            <button type="submit" class="btn btn-dark">Submit</a>
+            <button type="submit" class="btn btn-dark" data-dismiss="modal">Submit</button>
           </div>
         </div>
       </div>
